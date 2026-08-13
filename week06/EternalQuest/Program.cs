@@ -1,9 +1,12 @@
-using System;
+// Program.cs
+// Entry point for the Eternal Quest program.
+// Creates a GoalManager and starts the menu loop.
 
 class Program
 {
     static void Main(string[] args)
     {
-        Console.WriteLine("Hello World! This is the EternalQuest Project.");
+        GoalManager manager = new GoalManager();
+        manager.Start();
     }
 }
